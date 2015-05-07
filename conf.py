@@ -42,7 +42,7 @@ html_theme_options = {
     'navbar_links': [
     ],
     'navbar_sidebarrel': True,
-    'navbar_pagenav': True,
+    'navbar_pagenav': False,
     'navbar_pagenav_name': "Sections",
     'globaltoc_depth': 2,
     'globaltoc_includehidden': "true",

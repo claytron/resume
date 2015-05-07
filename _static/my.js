@@ -1,16 +1,11 @@
 $(document).ready(function() {
+    // Hide the search. CSS wouldn't do it...
+    $('.navbar-form').hide();
+    $('.navbar-toggle').detach();
+    
     // Turn the first header section into a hero
     var first_section = $('.section').first();
     first_section.addClass('jumbotron');
-
-    // XXX: No gravatar for now...
-    // Move the image into a media tag
-    //var profile_img = first_section.find('.gravatar-link').detach();
-    //var container = $('<div class="row"/>');
-    //container.append($('<div class="col-md-10"/>').append(first_section.contents()));
-    //container.append($('<div class="col-md-2"/>').append(profile_img));
-    //// Add the fancy version back
-    //first_section.append(container);
 
     // Make Employment section sexy
     $('#employment > ul').children('li').each(function (i_job, job) {
