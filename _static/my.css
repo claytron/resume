@@ -15,3 +15,23 @@ h2, .h2 {
   font-size: 26px;
   text-decoration: underline;
 }
+
+// You know what, I'll just turn search off...
+.navbar-form  { display: none; }
+
+#search-documentation {
+  display: none;
+}
+
+ul.search {
+  list-style: none;
+}
+
+ul.search li {
+  padding: 5px 0px;
+  background: none;
+}
+
+dt:target, .highlighted {
+  background-color: grey;
+}
