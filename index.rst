@@ -11,13 +11,13 @@ Clayton Parker
 
 aka `claytron <http://claytron.com>`_ on the internets.
 I've been honing my skills as a developer for over ten years.
-Over time I've grown a deep appreciation for simplicity, plain text and the command line.
+With my experience, I've grown a deep appreciation for simplicity, plain text and the command line.
 
 Skills
 ====================================================================
 
 Listed here are skills that I use on a regular basis.
-There are many more, but I won't bore you with an endless list of tech.
+If you want to know more about my specific experience and other skills, just ask.
 
 :OS:
     OS X, Ubuntu, CentOS, RedHat, Arch Linux, FreeBSD
@@ -32,19 +32,18 @@ Employment
 
 - ( 2010-now ) | Director of Engineering | Six Feet Up
 
+  Lead a team of developers, sysadmins and QA engineers.
+
   In charge of hiring new developers and sysadmins for the team.
 
   On-board and train new employees.
 
-  Mentor for the team.
-
 - ( 2006-2010 ) | Lead Developer | Six Feet Up
 
   Started designing websites from requirement to code.
+  Built architecture and workflow diagrams in OmniGraffle to present to clients.
 
-  Used a lot of OmniGraffle.
-
-  Learned buildout and more UNIX skills.
+  Learned about deployment tools like Buildout and gained much more UNIX experience.
 
 - ( 2004-2006 ) | Junior Developer | Six Feet Up
 
@@ -58,7 +57,7 @@ Employment
 
   Help desk for email and website hosting.
 
-  Learned to use vim and zsh.
+  Learned to use vim and zsh while administering FreeBSD boxes.
 
   Set up backup systems using AMANDA.
 
@@ -86,7 +85,7 @@ Community
 User Groups
 --------------------------------------------------------------------
 
-I am the co-founder and co-organizer of `IndyPy <http://indypy.org>`_, the Indianapolis Python user group.
+I am one of the organizers  of `IndyPy <http://indypy.org>`_, the Indianapolis Python user group.
 As part of IndyPy, I also help organize quarterly mini conferences under the banner Pythology.
 
 Projects
@@ -118,7 +117,7 @@ Here are a few highlights:
     This is a presentation all about my favorite Python Enhancement Proposal, `PEP8 <https://www.python.org/dev/peps/pep-0008/>`_.
     At PyOhio 2010, I showed the crowd why a coding style guide is important.
     Practical examples were given to illustrate the point.
-    Then I gave advice on tooling to use to make writing PEP8 compliant code easier.
+    The talk also focused on what tools to use to keep your code PEP8 compliant.
 
 `Pioneer a Strategic Change in Content Organization with Plone <https://www.youtube.com/watch?v=fEIZRwCCRaI>`_
     This talk, given at Plone Conference 2012, focuses on the business use case for multi-sites in Plone.
@@ -135,11 +134,18 @@ Personal
 ====================================================================
 
 :Hiking:
-    Being outdoors and going on long hikes helps clear the mind.
+    Indiana is full of great parks, even in the city.
+    I like to get out and enjoy nature.
 :Music:
-    Music is forever. I also dabble in playing music. I like to play the guitar, bass and Drums.
+    I grew up with a living room full of vinyl records.
+    All the Classic Rock and Jazz you could dream of.
+    Consequently, I spend a lot of time searching for and listening to new music.
+    If one of my favorite bands is in town, you'll definitely find me at the show.
 :Brewing:
-    This is a new passion for me. It allows for a lot of creativity.
+    This is a new passion for me.
+    I really enjoy the technical aspects of the process.
+    It also allows for a lot of creativity in creating new beers.
+    It is still kind of surreal that I can pull a beer out of my fridge, that I made.
 
 ..  via http://www.chris.com/ascii/index.php?art=movies/star%20wars
 
