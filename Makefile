@@ -6,6 +6,8 @@ SPHINXOPTS    =
 SPHINXBUILD   = sphinx-build
 PAPER         =
 BUILDDIR      = _build
+WKHTMLOPTS    = --page-height 865mm
+REMOTERESUME  = claytron.com:/usr/local/www/data/resume
 
 # User-friendly check for sphinx-build
 ifeq ($(shell which $(SPHINXBUILD) >/dev/null 2>&1; echo $$?), 1)
@@ -19,13 +21,16 @@ ALLSPHINXOPTS   = -d $(BUILDDIR)/doctrees $(PAPEROPT_$(PAPER)) $(SPHINXOPTS) .
 # the i18n builder cannot share the environment and doctrees with the others
 I18NSPHINXOPTS  = $(PAPEROPT_$(PAPER)) $(SPHINXOPTS) .
 
-.PHONY: help clean html dirhtml singlehtml pickle json htmlhelp qthelp devhelp epub latex latexpdf text man changes linkcheck doctest coverage gettext
+.PHONY: help clean html dirhtml singlehtml pickle json htmlhelp qthelp devhelp epub latex latexpdf text man changes linkcheck doctest coverage gettext pdf
+
+THIS_FILE := $(lastword $(MAKEFILE_LIST))
 
 help:
 	@echo "Please use \`make <target>' where <target> is one of"
 	@echo "  html       to make standalone HTML files"
 	@echo "  dirhtml    to make HTML files named index.html in directories"
 	@echo "  singlehtml to make a single large HTML file"
+	@echo "  pdf        to make PDF files"
 	@echo "  pickle     to make pickle files"
 	@echo "  json       to make JSON files"
 	@echo "  htmlhelp   to make HTML files and a HTML help project"
@@ -190,3 +195,15 @@ pseudoxml:
 	$(SPHINXBUILD) -b pseudoxml $(ALLSPHINXOPTS) $(BUILDDIR)/pseudoxml
 	@echo
 	@echo "Build finished. The pseudo-XML files are in $(BUILDDIR)/pseudoxml."
+
+pdf: sync
+	wkhtmltopdf --user-style-sheet pdf.css  -B 0 -L 0 -R 0 -T 0 --page-width 210mm --disable-forms $(WKHTMLOPTS) page http://claytron.com/static/resume/ $(BUILDDIR)/html/clayton_parker_resume.pdf
+	rsync -av $(BUILDDIR)/html/ $(REMOTERESUME)
+	@echo
+	@echo "Build finished. The PDF is in $(BUILDDIR)/html/clayton_parker_resume.pdf."
+	open $(BUILDDIR)/html/clayton_parker_resume.pdf
+
+sync: clean html
+	rsync -av $(BUILDDIR)/html/ $(REMOTERESUME)
+	@echo
+	@echo 'HTML build synced to server'
