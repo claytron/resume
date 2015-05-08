@@ -6,7 +6,7 @@ SPHINXOPTS    =
 SPHINXBUILD   = sphinx-build
 PAPER         =
 BUILDDIR      = _build
-WKHTMLOPTS    = --page-height 865mm
+WKHTMLOPTS    = --page-height 819mm
 REMOTERESUME  = claytron.com:/usr/local/www/data/resume
 
 # User-friendly check for sphinx-build

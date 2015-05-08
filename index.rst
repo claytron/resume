@@ -11,13 +11,12 @@ Clayton Parker
 
 aka `claytron <http://claytron.com>`_ on the internets.
 I've been honing my skills as a developer for over ten years.
-With my experience, I've grown a deep appreciation for simplicity, plain text and the command line.
+My experience has granted me a deep appreciation for simplicity, plain text and the command line.
 
 Skills
 ====================================================================
 
 Listed here are skills that I use on a regular basis.
-If you want to know more about my specific experience and other skills, just ask.
 
 :OS:
     OS X, Ubuntu, CentOS, RedHat, Arch Linux, FreeBSD
@@ -32,26 +31,23 @@ Employment
 
 - ( 2010-now ) | Director of Engineering | Six Feet Up
 
-  Lead a team of developers, sysadmins and QA engineers.
+  Led a team of developers, sysadmins and QA engineers.
 
-  In charge of hiring new developers and sysadmins for the team.
+  Was in charge of hiring new developers and sysadmins for the team.
+  On-boarded and trained new employees.
 
-  On-board and train new employees.
+  Deployed servers via Salt across Rackspace, Xen VMs and Vagrant.
 
 - ( 2006-2010 ) | Lead Developer | Six Feet Up
 
   Started designing websites from requirement to code.
   Built architecture and workflow diagrams in OmniGraffle to present to clients.
 
-  Learned about deployment tools like Buildout and gained much more UNIX experience.
+  Deployed applications via Buildout across platforms ranging from Solaris to Windows.
 
 - ( 2004-2006 ) | Junior Developer | Six Feet Up
 
-  Started creating dynamic websites with Zope and CMF.
-
-  Then later, Plone and Archetypes.
-
-  Where I learned Python.
+  Learned how to program in Python while building Zope, CMF and Plone sites.
 
 - ( 2003 ) | Junior Sysadmin | Six Feet Up
 
@@ -59,17 +55,11 @@ Employment
 
   Learned to use vim and zsh while administering FreeBSD boxes.
 
-  Set up backup systems using AMANDA.
-
-  Upgraded an aging RT server.
-
 - ( 1999-2003 ) | Machinist | PK Machine & Tool
 
   Operated manual and computer controlled mills and lathes.
 
   Turned schematics into physical objects.
-
-  This is where I first started to program.
 
 Language
 ====================================================================
@@ -92,7 +82,7 @@ Projects
 --------------------------------------------------------------------
 
 `claytron.featuring <https://github.com/claytron/claytron.featuring>`_
-    A little Python script that can modify an iTunes database and remove all those annoying *(Featuring Mega Rapper Star)* strings.
+    A little Python script that can modify an iTunes database and remove all those *(Featuring Mega Rapper Star)* strings.
 
 `pentadactyl-solarized <https://github.com/claytron/pentadactyl-solarized>`_
     Solarized color scheme for Pentadactyl, a vim like interface for Firefox.
@@ -144,7 +134,7 @@ Personal
 :Brewing:
     This is a new passion for me.
     I really enjoy the technical aspects of the process.
-    It also allows for a lot of creativity in creating new beers.
+    It also allows for a lot of creativity while designing new beers.
     It is still kind of surreal that I can pull a beer out of my fridge, that I made.
 
 ..  via http://www.chris.com/ascii/index.php?art=movies/star%20wars
