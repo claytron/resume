@@ -16,7 +16,7 @@ language = None
 # Else, today_fmt is used as the format for a strftime call.
 #today_fmt = '%B %d, %Y'
 
-exclude_patterns = ['_build']
+exclude_patterns = ['_build', 'env/*']
 pygments_style = 'sphinx'
 todo_include_todos = True
 
