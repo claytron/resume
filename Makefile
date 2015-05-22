@@ -206,6 +206,7 @@ dirty:
 	[ -n "$(shell git st -s)" ] && echo 'There are unsaved changes. Please commit.' && exit 1 || true
 
 publish: dirty clean html pdf
+	touch $(BUILDDIR)/html/.nojekyll
 	cp -r $(BUILDDIR)/html /tmp/rhtml
 	git checkout gh-pages
 	rsync -av /tmp/rhtml/ .
