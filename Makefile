@@ -9,11 +9,6 @@ BUILDDIR      = _build
 WKHTMLOPTS    = --page-height 800mm
 GITHUBIO      = https://claytron.github.io/resume
 
-# User-friendly check for sphinx-build
-ifeq ($(shell which $(SPHINXBUILD) >/dev/null 2>&1; echo $$?), 1)
-$(error The '$(SPHINXBUILD)' command was not found. Make sure you have Sphinx installed, then set the SPHINXBUILD environment variable to point to the full path of the '$(SPHINXBUILD)' executable. Alternatively you can add the directory with the executable to your PATH. If you don't have Sphinx installed, grab it from http://sphinx-doc.org/)
-endif
-
 # Internal variables.
 PAPEROPT_a4     = -D latex_paper_size=a4
 PAPEROPT_letter = -D latex_paper_size=letter
@@ -195,6 +190,10 @@ pseudoxml:
 	$(SPHINXBUILD) -b pseudoxml $(ALLSPHINXOPTS) $(BUILDDIR)/pseudoxml
 	@echo
 	@echo "Build finished. The pseudo-XML files are in $(BUILDDIR)/pseudoxml."
+
+venv:
+	virtualenv env
+	env/bin/pip install -r requirements.txt
 
 pdf: clean html
 	wkhtmltopdf --user-style-sheet pdf.css  -B 0 -L 0 -R 0 -T 0 --page-width 210mm --disable-forms $(WKHTMLOPTS) page $(BUILDDIR)/html/index.html $(BUILDDIR)/html/clayton_parker_resume.pdf || true
