@@ -6,8 +6,8 @@ SPHINXOPTS    =
 SPHINXBUILD   = sphinx-build
 PAPER         =
 BUILDDIR      = _build
-REMOTERESUME  = claytron.com:/usr/local/www/data/resume
 WKHTMLOPTS    = --page-height 800mm
+GITHUBIO      = https://claytron.github.io/resume
 
 # User-friendly check for sphinx-build
 ifeq ($(shell which $(SPHINXBUILD) >/dev/null 2>&1; echo $$?), 1)
@@ -202,7 +202,19 @@ pdf: clean html
 	@echo "Build finished. The PDF is in $(BUILDDIR)/html/clayton_parker_resume.pdf."
 	open $(BUILDDIR)/html/clayton_parker_resume.pdf
 
-sync: clean html
-	rsync -av $(BUILDDIR)/html/ $(REMOTERESUME)
+# This will fail, on purpose.
+dirty:
+	[ -n "$(git st -s)" ] && echo 'There are unsaved changes. Please commit.'; exit 1
+
+publish: dirty clean html pdf
+	cp -r $(BUILDDIR)/html /tmp/rhtml
+	git checkout gh-pages
+	rsync -av /tmp/rhtml/ .
+	git add .
+	git commit -m 'new build'
+	git push origin gh-pages
+	git checkout master
+	rm -rf /tmp/rhtml
 	@echo
-	@echo 'HTML build synced to server'
+	@echo 'Congrats. Published.'
+	open $(GITHUBIO)
