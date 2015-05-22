@@ -1,8 +1,6 @@
 # -*- coding: utf-8 -*-
 extensions = [
     'sphinx.ext.todo',
-    'sphinxcontrib.gravatar',
-    'rst2pdf.pdfbuilder',
 ]
 templates_path = ['_templates']
 source_suffix = ['.rst', '.md']
@@ -21,10 +19,6 @@ language = None
 exclude_patterns = ['_build']
 pygments_style = 'sphinx'
 todo_include_todos = True
-
-gravatar_users = (
-    ('claytron', {'email': 'clayton@sixfeetup.com'}),
-)
 
 import sphinx_bootstrap_theme
 html_theme = 'bootstrap'
