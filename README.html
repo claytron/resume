@@ -108,18 +108,20 @@
 <div class="section" id="build-it">
 <h2>Build It<a class="headerlink" href="#build-it" title="Permalink to this headline">¶</a></h2>
 <p>First, a few things need to be done.</p>
+<p>Create a <a class="reference external" href="https://help.github.com/articles/creating-project-pages-manually/">gh-pages branch</a></p>
 <p>Install <a class="reference external" href="http://wkhtmltopdf.org/">wkhtmltopdf</a>.</p>
 <p>I&#8217;ll assume there is a Python install with virtualenv.
 Get one setup for this and pull in the dependencies:</p>
 <div class="highlight-python"><div class="highlight"><pre>$ make venv
+$ source env/bin/activate
 </pre></div>
 </div>
 <p>Now create a pdf:</p>
-<div class="highlight-python"><div class="highlight"><pre>$ make pdf
+<div class="highlight-python"><div class="highlight"><pre>(env)$ make pdf
 </pre></div>
 </div>
 <p>Or push the latest changes to github:</p>
-<div class="highlight-python"><div class="highlight"><pre>$ make publish
+<div class="highlight-python"><div class="highlight"><pre>(env)$ make publish
 </pre></div>
 </div>
 <p>Or do whatever else sphinx can do.</p>
