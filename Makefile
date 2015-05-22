@@ -203,7 +203,7 @@ pdf: clean html
 
 # This will fail, on purpose.
 dirty:
-	[ -n "$(git st -s)" ] && echo 'There are unsaved changes. Please commit.'; exit 1
+	[ -n "$(shell git st -s)" ] && echo 'There are unsaved changes. Please commit.' && exit 1 || true
 
 publish: dirty clean html pdf
 	cp -r $(BUILDDIR)/html /tmp/rhtml
