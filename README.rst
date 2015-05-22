@@ -6,6 +6,10 @@ See It
 
 https://claytron.github.io/resume
 
+And believe it.
+
+https://github.com/claytron/resume
+
 Build It
 --------------------------------------------------------------------
 
