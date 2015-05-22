@@ -205,11 +205,13 @@ pdf: clean html
 dirty:
 	[ -n "$(shell git st -s)" ] && echo 'There are unsaved changes. Please commit.' && exit 1 || true
 
-publish: dirty clean html pdf
-	touch $(BUILDDIR)/html/.nojekyll
+# This is some hairy stuff. Be Careful...
+publish: dirty pdf
 	cp -r $(BUILDDIR)/html /tmp/rhtml
+	touch /tmp/rhtml/.nojekyll
+	cp .gitignore /tmp/rhtml/.
 	git checkout gh-pages
-	rsync -av /tmp/rhtml/ .
+	rsync -av --exclude=.git/ --exclude=env/ --delete /tmp/rhtml/ .
 	git add .
 	git commit -m 'new build'
 	git push origin gh-pages
