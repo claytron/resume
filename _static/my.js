@@ -23,13 +23,16 @@ $(document).ready(function() {
     // Make Employment section sexy
     $('#employment > ul').children('li').each(function (i_job, job) {
       job = $(job);
-      // E.g. ( YYYY-YYYY ) | Job | Company
+      // E.g. ( YYYY-YYYY ) | Job Title | Company
       var job_text_array = job.text().split('\n');
+      var btn_name = '';
       var job_banner = [];
-      $(job_text_array[0].split('|')).each(function (i_job_str, job_str) {
-        switch ( i_job_str ) {
+      $(job_text_array[0].split('|')).each(function (i_job_info, job_info) {
+        switch ( i_job_info ) {
+          // Years
           case 0:
-            job_str = job_str.replace(/[\(\)]/g, '');
+            // Cleanup the parens
+            job_info = job_info.replace(/[\(\)]/g, '');
             if ( i_job === 0 ) {
               // Highlight the current job
               btn_name = 'danger';
@@ -37,24 +40,28 @@ $(document).ready(function() {
               btn_name = 'primary';
             }
             break;
+          // Job Title
           case 1:
             btn_name = 'default';
             break;
+          // Company
           case 2:
             btn_name = 'success';
             break;
           default:
             btn_name = '';
-            console.error('Unknown case. i: ' + i + ' job_str: ' + job_str);
+            console.error('Unknown case. i: ' + i + ' job_info: ' + job_info);
         }
+        // Now create the element and add it to the list
         btn = $('<span class="btn btn-sm btn-' + btn_name +'"/>');
-        btn.text(job_str.trim());
+        btn.text(job_info.trim());
         job_banner.push(btn);
       });
       // Get rid of the line we just turned into a header
       job.find('p.first').detach();
       // Create a new element to attach
       var pretty_job = $('<div/>');
+      // Add the stylized job header info
       pretty_job.append($('<h2/>').append(job_banner));
       pretty_job.append($('<div class="well well-sm"/>').append(job.contents()));
       // Add to the section and remove li
