@@ -1,4 +1,7 @@
 $(document).ready(function() {
+    // Remove the last updated
+    $('p').last().detach();
+
     // Hide the search. CSS wouldn't do it...
     $('.navbar-form').hide();
     $('.navbar-toggle').detach();
