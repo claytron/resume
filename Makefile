@@ -196,10 +196,10 @@ venv:
 	env/bin/pip install -r requirements.txt
 
 pdf: clean html
-	wkhtmltopdf --user-style-sheet pdf.css  -B 0 -L 0 -R 0 -T 0 --page-width 210mm --disable-forms $(WKHTMLOPTS) page $(BUILDDIR)/html/index.html $(BUILDDIR)/html/clayton_parker_resume.pdf || true
+	wkhtmltopdf --user-style-sheet pdf.css  -B 0 -L 0 -R 0 -T 0 --page-width 210mm --disable-forms $(WKHTMLOPTS) page $(BUILDDIR)/html/index.html $(BUILDDIR)/html/resume.pdf || true
 	@echo
-	@echo "Build finished. The PDF is in $(BUILDDIR)/html/clayton_parker_resume.pdf."
-	open $(BUILDDIR)/html/clayton_parker_resume.pdf
+	@echo "Build finished. The PDF is in $(BUILDDIR)/html/resume.pdf."
+	open $(BUILDDIR)/html/resume.pdf
 
 # This will fail, on purpose.
 dirty:

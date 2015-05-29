@@ -7,6 +7,16 @@ $(document).ready(function() {
     var first_section = $('.section').first();
     first_section.addClass('jumbotron');
 
+    // Add a link to the PDF by abusing the Back to Top link
+    var pdf_link = $('.footer .pull-right a');
+    // Set the new text for the link
+    pdf_link.empty();
+    pdf_link.append($('<span class="glyphicon glyphicon-download-alt"/>'));
+    pdf_link.append(' Download PDF');
+    // Set the link and open in a new window
+    pdf_link.attr('href', 'resume.pdf');
+    pdf_link.attr('target', '_blank');
+
     // Make Employment section sexy
     $('#employment > ul').children('li').each(function (i_job, job) {
       job = $(job);
