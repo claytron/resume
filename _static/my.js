@@ -41,12 +41,7 @@ $(document).ready(function() {
             btn_name = 'default';
             break;
           case 2:
-            if ( i_job == 4 ) {
-              // Highlight the change of job
-              btn_name = 'info';
-            } else {
-              btn_name = 'success';
-            }
+            btn_name = 'success';
             break;
           default:
             btn_name = '';
