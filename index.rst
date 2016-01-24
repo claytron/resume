@@ -21,7 +21,7 @@ Listed here are things that I use on a regular basis.
 :OS:
     OS X, Ubuntu, CentOS, RedHat, Arch Linux, FreeBSD
 :Languages:
-    Python, Bash, VimL, Ruby, Javascript
+    Ruby, Javascript, Bash, VimL, Python
 :Tools:
     Vim, zsh, bash, regex, Lucene, git, svn, tmux, sed, grep, awk
 
