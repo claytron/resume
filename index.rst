@@ -82,6 +82,9 @@ Community
 User Groups
 --------------------------------------------------------------------
 
+I'm the founder of `VimIndy <https://meetup.com/vimindy>`_.
+This is where the true nerds talk about editing text with the legendary Vim editor.
+
 I am one of the organizers  of `IndyPy <http://indypy.org>`_, the Indianapolis Python user group.
 
 Projects
