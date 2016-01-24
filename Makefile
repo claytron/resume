@@ -203,7 +203,7 @@ pdf: clean html
 
 # This will fail, on purpose.
 dirty:
-	[ -n "$(shell git st -s)" ] && echo 'There are unsaved changes. Please commit.' && exit 1 || true
+	[ -n "$(shell git status -s)" ] && echo 'There are unsaved changes. Please commit.' && exit 1 || true
 
 # This is some hairy stuff. Be Careful...
 publish: dirty pdf
