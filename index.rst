@@ -28,8 +28,15 @@ Listed here are things that I use on a regular basis.
 Employment
 ====================================================================
 
+- ( 2015-now ) | Senior Software Engineer | TinderBox
 
-- ( 2010-now ) | Director of Engineering | Six Feet Up
+  Writing software in Ruby and Javascript.
+
+  DevOps work.
+  Set up error reporting tools.
+  Vagrant VM for development environment setup.
+
+- ( 2010-2015 ) | Director of Engineering | Six Feet Up
 
   Led a team of developers, sysadmins and QA engineers.
 
