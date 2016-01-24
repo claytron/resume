@@ -10,13 +10,13 @@ Clayton Parker
 ====================================================================
 
 aka `claytron <http://claytron.com>`_ on the internets.
-I've been honing my skills as a developer for over ten years.
+I've been honing my skills as a developer for over a decade.
 My experience has granted me a deep appreciation for simplicity, plain text and the command line.
 
 Skills
 ====================================================================
 
-Listed here are skills that I use on a regular basis.
+Listed here are things that I use on a regular basis.
 
 :OS:
     OS X, Ubuntu, CentOS, RedHat, Arch Linux, FreeBSD
