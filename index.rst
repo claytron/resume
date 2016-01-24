@@ -83,7 +83,6 @@ User Groups
 --------------------------------------------------------------------
 
 I am one of the organizers  of `IndyPy <http://indypy.org>`_, the Indianapolis Python user group.
-As part of IndyPy, I also help organize quarterly mini conferences under the banner Pythology.
 
 Projects
 --------------------------------------------------------------------
