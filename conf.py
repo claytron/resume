@@ -31,7 +31,7 @@ html_theme_path = sphinx_bootstrap_theme.get_html_theme_path()
 # Theme options are theme-specific and customize the look and feel of a
 # theme further.
 html_theme_options = {
-    'navbar_title': "Clayton Parker | Software Engineer",
+    'navbar_title': "Clayton Parker | Code Archaeologist",
     'navbar_site_name': "Site",
     'navbar_links': [
     ],
