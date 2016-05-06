@@ -5,7 +5,7 @@ $(document).ready(function() {
     // Hide the search. CSS wouldn't do it...
     $('.navbar-form').hide();
     $('.navbar-toggle').detach();
-    
+
     // Turn the first header section into a hero
     var first_section = $('.section').first();
     first_section.addClass('jumbotron');
@@ -35,9 +35,9 @@ $(document).ready(function() {
             job_info = job_info.replace(/[\(\)]/g, '');
             if ( i_job === 0 ) {
               // Highlight the current job
-              btn_name = 'danger';
-            } else {
               btn_name = 'primary';
+            } else {
+              btn_name = 'danger';
             }
             break;
           // Job Title

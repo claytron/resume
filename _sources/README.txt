@@ -24,6 +24,7 @@ Get one setup for this and pull in the dependencies::
 
     $ make venv
     $ source env/bin/activate
+    $ pip install -r requirements.txt
 
 Now create a pdf::
 
