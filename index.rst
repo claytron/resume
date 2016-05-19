@@ -106,6 +106,11 @@ Presentations
 Over my career, I have given many presentations to audiences large and small.
 Here are a few highlights:
 
+`Exploring Code with Pry! <https://github.com/claytron/pry-talk>`_
+    My first ruby talk!
+    A deep dive into how to use and customize Pry.
+    I like debuggers.
+
 `So You Think You Can PDB? <https://youtu.be/P0pIW5tJrRM>`_
     I gave this presentation to a packed house at PyCon 2015.
     It is incredible how many people still don't know about PDB,
