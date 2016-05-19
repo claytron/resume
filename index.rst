@@ -19,11 +19,11 @@ Skills
 Listed here are things that I use on a regular basis.
 
 :OS:
-    OS X, Ubuntu, CentOS, RedHat, Arch Linux, FreeBSD
+    OS X, Ubuntu, Gentoo
 :Languages:
     Ruby, Javascript, Bash, VimL, Python
 :Tools:
-    Vim, zsh, bash, regex, Lucene, git, svn, tmux, sed, grep, awk
+    Vim, zsh, bash, regex, Lucene, git, tmux, sed, grep, awk, XML
 
 Employment
 ====================================================================
@@ -33,8 +33,6 @@ Employment
   Writing software in Ruby and Javascript.
 
   DevOps work.
-  Set up error reporting tools.
-  Vagrant VM for development environment setup.
 
 - ( 2010-2015 ) | Director of Engineering | Six Feet Up
 
