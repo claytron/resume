@@ -33,6 +33,7 @@ Employment
   Writing software in Ruby and Javascript.
 
   DevOps work.
+  Jaspersoft Server.
 
 - ( 2010-2015 ) | Director of Engineering | Six Feet Up
 
