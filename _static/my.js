@@ -42,7 +42,7 @@ $(document).ready(function() {
             break;
           // Company
           case 2:
-            btn_name = 'success';
+            btn_name = i_job === 0 ? 'success' : 'info';
             break;
           default:
             btn_name = '';
