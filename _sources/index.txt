@@ -23,7 +23,7 @@ Listed here are things that I use on a regular basis.
 :Languages:
     Ruby, Javascript, Bash, VimL, Python
 :Tools:
-    Vim, zsh, bash, regex, Lucene, git, tmux, sed, grep, awk, XML
+    Vim, zsh, bash, regex, Lucene, git, tmux, sed, grep, awk
 
 Employment
 ====================================================================
@@ -33,7 +33,6 @@ Employment
   Writing software in Ruby and Javascript.
 
   DevOps work.
-  Jaspersoft Server.
 
 - ( 2010-2015 ) | Director of Engineering | Six Feet Up
 
