@@ -144,7 +144,6 @@ Personal
     Consequently, I spend a lot of time searching for and listening to new music.
     If one of my favorite bands is in town, you'll definitely find me at the show.
 :Brewing:
-    This is a new passion for me.
     I really enjoy the technical aspects of the process.
     It also allows for a lot of creativity while designing new beers.
     It is still kind of surreal that I can pull a beer out of my fridge, that I made.
