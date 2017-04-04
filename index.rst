@@ -28,7 +28,7 @@ Listed here are things that I use on a regular basis.
 Employment
 ====================================================================
 
-- ( 2015-now ) | Senior Software Engineer | TinderBox
+- ( 2015-now ) | Senior Software Engineer | Octiv
 
   Writing software in Ruby and Javascript.
 
