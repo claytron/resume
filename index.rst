@@ -46,7 +46,7 @@ Employment
 - ( 2006-2010 ) | Lead Developer | Six Feet Up
 
   Started designing websites from requirement to code.
-  Built architecture and workflow diagrams in OmniGraffle to present to clients.
+  Built architecture and workflow diagrams to present to clients.
 
   Deployed applications via Buildout across platforms ranging from Solaris to Windows.
 
