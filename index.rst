@@ -19,11 +19,11 @@ Skills
 Listed here are things that I use on a regular basis.
 
 :OS:
-    OS X, Ubuntu, Gentoo
+    OS X, Gentoo, Ubuntu
 :Languages:
     Ruby, Javascript, Bash, VimL, Python
 :Tools:
-    Vim, zsh, bash, regex, Lucene, git, tmux, sed, grep, awk
+    Vim, zsh, bash, regex, Elastic, git, tmux, sed, grep, awk, Chef
 
 Employment
 ====================================================================
@@ -83,7 +83,7 @@ User Groups
 I'm the founder of `VimIndy <https://meetup.com/vimindy>`_.
 This is where the true nerds talk about editing text with the legendary Vim editor.
 
-I am one of the organizers  of `IndyPy <http://indypy.org>`_, the Indianapolis Python user group.
+I am co-founder of `IndyPy <http://indypy.org>`_, the Indianapolis Python user group.
 
 Projects
 --------------------------------------------------------------------
