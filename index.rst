@@ -111,8 +111,8 @@ Here are a few highlights:
 
 `So You Think You Can PDB? <https://youtu.be/P0pIW5tJrRM>`_
     I gave this presentation to a packed house at PyCon 2015.
-    It is incredible how many people still don't know about PDB,
-    but I'm trying to fix that.
+    It is incredible how many people still don't know about PDB but,
+    I'm trying to fix that.
 
 `Code with Style <http://pyvideo.org/video/508/pyohio-2010--code-with-style>`_
     This is a presentation all about my favorite Python Enhancement Proposal, `PEP8 <https://www.python.org/dev/peps/pep-0008/>`_.
