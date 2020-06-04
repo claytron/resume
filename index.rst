@@ -22,7 +22,7 @@ Listed here are things that I use on a regular basis.
 :Languages:
     Ruby, Javascript, Bash, VimL, Python
 :Tools:
-    Vim, zsh, bash, regex, Elastic, git, tmux, sed, grep, awk, Chef
+    Vim, zsh, bash, regex, Elastic, git, tmux, sed, grep, awk, Chef, AWS
 
 Employment
 ====================================================================
