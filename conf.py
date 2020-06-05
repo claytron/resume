@@ -37,6 +37,7 @@ html_theme_options = {
     ],
     'navbar_sidebarrel': True,
     'navbar_pagenav': False,
+    'nosidebar': True,
     'navbar_pagenav_name': "Sections",
     'globaltoc_depth': 2,
     'globaltoc_includehidden': "true",
@@ -57,6 +58,14 @@ html_title = 'Resume'
 html_favicon = '_static/favicon.ico'
 
 html_static_path = ['_static']
+
+html_css_files = [
+    'my.css',
+]
+
+html_js_files = [
+    'my.js',
+]
 
 # If not '', a 'Last updated on:' timestamp is inserted at every page bottom,
 # using the given strftime format.

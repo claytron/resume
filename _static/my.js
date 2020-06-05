@@ -54,7 +54,7 @@ $(document).ready(function() {
         job_banner.push(btn);
       });
       // Get rid of the line we just turned into a header
-      job.find('p.first').detach();
+      job.find('p').first().detach();
       // Create a new element to attach
       var pretty_job = $('<div/>');
       // Add the stylized job header info
