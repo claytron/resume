@@ -201,7 +201,7 @@ pdf: clean html
 	wkhtmltopdf --debug-javascript --user-style-sheet pdf.css -B 0 -L 0 -R 0 -T 0 --page-width 210mm --disable-forms $(WKHTMLOPTS) page $(BUILDDIR)/html/index.html $(BUILDDIR)/html/resume.pdf || true
 	@echo
 	@echo "Build finished. The PDF is in $(BUILDDIR)/html/resume.pdf."
-	open $(BUILDDIR)/html/resume.pdf
+	which open && open $(BUILDDIR)/html/resume.pdf || rifle $(BUILDDIR)/html/resume.pdf
 
 # This will fail, on purpose.
 dirty:
