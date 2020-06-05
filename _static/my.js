@@ -34,7 +34,7 @@ $(document).ready(function() {
             // Cleanup the parens
             job_info = job_info.replace(/[\(\)]/g, '');
             // Highlight the current job
-            btn_name = i_job === 0 ? 'primary' :  'danger';
+            btn_name = 'primary';
             break;
           // Job Title
           case 1:
@@ -42,7 +42,7 @@ $(document).ready(function() {
             break;
           // Company
           case 2:
-            btn_name = i_job === 0 ? 'success' : 'info';
+            btn_name = 'success';
             break;
           default:
             btn_name = '';

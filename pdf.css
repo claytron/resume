@@ -1,7 +1,36 @@
-#navbar, footer {
+body {
+    padding-left: 100px;
+}
+
+/* hide the footer, since it won't link */
+footer {
     display: none !important;
 }
 
-body {
-    padding-left: 100px;
+/* fix issue with header breaking into the next line */
+.navbar-brand {
+    width: 100%;
+}
+
+.jumbotron h1 {
+    font-size: 60px !important;
+    margin-left: 9px !important;
+}
+
+.jumbotron {
+    padding: 20px 60px !important;
+}
+
+/* display grid doesn't work with wkhtmltopdf, so this... */
+dl.field-list {
+    width: 100%;
+    overflow: hidden;
+}
+dl.field-list dt {
+    float: left;
+    width: 15%;
+}
+dl.field-list dd {
+    float: left;
+    width: 85%;
 }
