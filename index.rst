@@ -9,7 +9,7 @@ Clayton Parker
 ====================================================================
 
 aka `claytron <http://claytron.com>`_ on the internets.
-I've been honing my skills as a developer for over a decade.
+I've been honing my skills as a developer for almost two decades.
 My experience has granted me a deep appreciation for simplicity, plain text and the command line.
 
 Skills
@@ -18,20 +18,40 @@ Skills
 Listed here are things that I use on a regular basis.
 
 :OS:
-    OS X, Gentoo, Ubuntu
+    macOS, Ubuntu, Gentoo
 :Languages:
     Ruby, Javascript, Bash, VimL, Python
 :Tools:
-    Vim, zsh, bash, regex, Elastic, git, tmux, sed, grep, awk, Chef, AWS
+    Vim, zsh, bash, regex, ElasticSearch, git, tmux, sed, grep, awk, Chef, AWS
 
 Employment
 ====================================================================
 
-- ( 2015-now ) | Senior Software Engineer | Octiv
+- ( 2019-2020 ) | Staff Engineer | Conga
+
+  Working across teams to solve problems.
+
+  Added to the Security Advocates Committee to help secure all Conga applications. 
+
+- ( 2018-2019 ) | Senior Software Engineer | Conga
+
+  Octiv was acquired by Conga, switched back to primarily doing development.
+
+  Mentored junior engineers on both development and DevOps.
+
+- ( 2017-2018 ) | DevOps Lead | TinderBox / Octiv
+
+  Started effort to move application from legacy PaaS to native AWS.
+
+  Handled all Tier 3 support and escalations.
+
+  Security remediations.
+
+- ( 2015-2017 ) | Senior Software Engineer | TinderBox / Octiv
 
   Writing software in Ruby and Javascript.
 
-  DevOps work.
+  DevOps work to get new features ready for release.
 
 - ( 2010-2015 ) | Director of Engineering | Six Feet Up
 
@@ -79,10 +99,13 @@ Community
 User Groups
 --------------------------------------------------------------------
 
-I'm the founder of `VimIndy <https://meetup.com/vimindy>`_.
-This is where the true nerds talk about editing text with the legendary Vim editor.
+Co-founder of `Dotfiles-Indy <https://meetingplace.io/Dotfiles-Indy>`_.
+A place for command line fanatics of all types to come together and share.
 
-I am co-founder of `IndyPy <http://indypy.org>`_, the Indianapolis Python user group.
+Founder of `VimIndy <https://meetup.com/vimindy>`_.
+This is where the true nerds talked about editing text with the legendary Vim editor.
+
+Co-founder of `IndyPy <http://indypy.org>`_, the Indianapolis Python user group.
 
 Projects
 --------------------------------------------------------------------
@@ -134,14 +157,15 @@ Parker, Clayton, and 12 others. *Practical Plone 3: A Beginner's Guide to Buildi
 Personal
 ====================================================================
 
-:Hiking:
+:Outdoors:
     Indiana is full of great parks, even in the city.
-    I like to get out and enjoy nature.
+    I like to get out for a hike or go disc golfing.
 :Music:
     I grew up with a living room full of vinyl records.
     All the Classic Rock and Jazz you could dream of.
     Consequently, I spend a lot of time searching for and listening to new music.
     If one of my favorite bands is in town, you'll definitely find me at the show.
+    I also like to play the guitar, drums and bleep 'n bloop around with synthesizers.
 :Brewing:
     I really enjoy the technical aspects of the process.
     It also allows for a lot of creativity while designing new beers.
