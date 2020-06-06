@@ -4,19 +4,65 @@ body, table, .table {
 }
 
 h1 {
-  font-size: 34px;
+  font-size: 30px;
   width: 100%;
   background-color: #4E5D6C;
-  margin: 5px 0px;
-  padding: 5px 0px;
+  margin: 20px 0px;
+  padding: 9px;
+  border-right: 1px solid #DF691A;
+  border-bottom: 2px solid #5bc0de;
+}
+
+.jumbotron h1 {
+  border: none;
+  padding: 0;
+  border: none;
+}
+
+.jumbotron {
+  border-right: 1px solid #5cb85c;
+  border-bottom: 2px solid #5cb85c;
+  border-top: 1px solid #abb6c2;
+  border-left: 2px solid #abb6c2;
+}
+
+dl.field-list > dt {
+  padding-left: 0;
 }
 
 h2, .h2 {
   font-size: 26px;
-  text-decoration: underline;
+  margin: 9px;
 }
 
-// You know what, I'll just turn search off...
+#employment .btn {
+  width: 256px;
+}
+
+#employment .btn-success {
+  width: 258px;
+}
+
+#employment h2 {
+  margin: 0;
+  width: 100%;
+}
+
+#employment .well {
+  border-top: 2px solid #abb6c2;
+  border-left: 1px solid #abb6c2;
+}
+
+dl,
+.section > p {
+  margin: 9px;
+}
+
+.well p {
+  margin: 9px 0;
+}
+
+/* You know what, I'll just turn search off... */
 .navbar-form  { display: none; }
 
 #search-documentation {
