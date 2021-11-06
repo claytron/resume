@@ -6,7 +6,7 @@ SPHINXOPTS    =
 SPHINXBUILD   = sphinx-build
 PAPER         =
 BUILDDIR      = _build
-WKHTMLOPTS    = --page-height 800mm
+WKHTMLOPTS    = --page-height 770mm --page-width 208mm
 GITHUBIO      = https://claytron.github.io/resume
 
 # Internal variables.
@@ -193,7 +193,8 @@ pseudoxml:
 
 venv:
 	python3 -m venv env
-	env/bin/pip install -r requirements.txt
+	env/bin/pip install -U pip
+	env/bin/pip install poetry
 
 pdf: clean html
 	@echo "Putting jQuery 3.2 in place so that js works with wkhtmltopdf"
