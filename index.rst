@@ -18,20 +18,24 @@ Skills
 Listed here are things that I use on a regular basis.
 
 :OS:
-    macOS, Ubuntu, Gentoo
+    macOS, Ubuntu
 :Languages:
     Ruby, Javascript, Bash, VimL, Python
 :Tools:
-    Vim, zsh, bash, regex, ElasticSearch, git, tmux, sed, grep, awk, Chef, AWS
+    Vim, zsh, bash, regex, ElasticSearch, git, tmux, sed, grep, awk, terraform, AWS
 
 Employment
 ====================================================================
+
+- ( 2021-present ) | Senior Software Engineer | Maxwell
+
+  DevOps work to bring service deployments into the future.
 
 - ( 2019-2020 ) | Staff Engineer | Conga
 
   Working across teams to solve problems.
 
-  Added to the Security Advocates Committee to help secure all Conga applications. 
+  Added to the Security Advocates Committee to help secure all Conga applications.
 
 - ( 2018-2019 ) | Senior Software Engineer | Conga
 
@@ -165,7 +169,7 @@ Personal
     All the Classic Rock and Jazz you could dream of.
     Consequently, I spend a lot of time searching for and listening to new music.
     If one of my favorite bands is in town, you'll definitely find me at the show.
-    I also like to play the guitar, drums and bleep 'n bloop around with synthesizers.
+    Mostly obsessed with playing modular synths these days.
 :Brewing:
     I really enjoy the technical aspects of the process.
     It also allows for a lot of creativity while designing new beers.
