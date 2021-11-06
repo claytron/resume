@@ -4,15 +4,16 @@
 <html>
   <head>
     <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
+
     <title>README &#8212; Resume</title>
-    <link rel="stylesheet" href="_static/bootstrap-sphinx.css" type="text/css" />
-    <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    <link rel="stylesheet" type="text/css" href="_static/pygments.css" />
+    <link rel="stylesheet" type="text/css" href="_static/bootstrap-sphinx.css" />
     <link rel="stylesheet" type="text/css" href="_static/my.css" />
-    <script id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
+    <script data-url_root="./" id="documentation_options" src="_static/documentation_options.js"></script>
     <script src="_static/jquery.js"></script>
     <script src="_static/underscore.js"></script>
     <script src="_static/doctools.js"></script>
-    <script src="_static/language_data.js"></script>
     <script src="_static/my.js"></script>
     <link rel="shortcut icon" href="_static/favicon.ico"/>
     <link rel="index" title="Index" href="genindex.html" />
@@ -21,9 +22,9 @@
 <meta http-equiv='X-UA-Compatible' content='IE=edge,chrome=1'>
 <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1'>
 <meta name="apple-mobile-web-app-capable" content="yes">
-<script type="text/javascript" src="_static/js/jquery-1.11.0.min.js "></script>
+<script type="text/javascript" src="_static/js/jquery-1.12.4.min.js "></script>
 <script type="text/javascript" src="_static/js/jquery-fix.js "></script>
-<script type="text/javascript" src="_static/bootstrap-3.3.7/js/bootstrap.min.js "></script>
+<script type="text/javascript" src="_static/bootstrap-3.4.1/js/bootstrap.min.js "></script>
 <script type="text/javascript" src="_static/bootstrap-sphinx.js "></script>
 
   </head><body>
@@ -86,15 +87,15 @@
   <div class="row">
     <div class="body col-md-12 content" role="main">
       
-  <div class="section" id="readme">
+  <section id="readme">
 <h1>README<a class="headerlink" href="#readme" title="Permalink to this headline">¶</a></h1>
-<div class="section" id="see-it">
+<section id="see-it">
 <h2>See It<a class="headerlink" href="#see-it" title="Permalink to this headline">¶</a></h2>
 <p><a class="reference external" href="https://claytron.github.io/resume">https://claytron.github.io/resume</a></p>
 <p>And believe it.</p>
 <p><a class="reference external" href="https://github.com/claytron/resume">https://github.com/claytron/resume</a></p>
-</div>
-<div class="section" id="build-it">
+</section>
+<section id="build-it">
 <h2>Build It<a class="headerlink" href="#build-it" title="Permalink to this headline">¶</a></h2>
 <p>First, a few things need to be done.</p>
 <p>Create a <a class="reference external" href="https://help.github.com/articles/creating-project-pages-manually/">gh-pages branch</a></p>
@@ -103,7 +104,7 @@
 Get one setup for this and pull in the dependencies:</p>
 <div class="highlight-default notranslate"><div class="highlight"><pre><span></span>$ make venv
 $ source env/bin/activate
-$ pip install -r requirements.txt
+$ poetry install
 </pre></div>
 </div>
 <p>Now create a pdf:</p>
@@ -115,8 +116,8 @@ $ pip install -r requirements.txt
 </pre></div>
 </div>
 <p>Or do whatever else sphinx can do.</p>
-</div>
-</div>
+</section>
+</section>
 
 
     </div>
