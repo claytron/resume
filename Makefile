@@ -192,13 +192,13 @@ pseudoxml:
 	@echo "Build finished. The pseudo-XML files are in $(BUILDDIR)/pseudoxml."
 
 venv:
-	virtualenv -p `which python3` env
+	python3 -m venv env
 	env/bin/pip install -r requirements.txt
 
 pdf: clean html
 	@echo "Putting jQuery 3.2 in place so that js works with wkhtmltopdf"
 	curl -s https://code.jquery.com/jquery-3.2.1.min.js > $(BUILDDIR)/html/_static/jquery.js
-	wkhtmltopdf --debug-javascript --user-style-sheet pdf.css -B 0 -L 0 -R 0 -T 0 --page-width 210mm --disable-forms $(WKHTMLOPTS) page $(BUILDDIR)/html/index.html $(BUILDDIR)/html/resume.pdf || true
+	wkhtmltopdf --debug-javascript --enable-local-file-access --user-style-sheet pdf.css -B 0 -L 0 -R 0 -T 0 --page-width 210mm --disable-forms $(WKHTMLOPTS) page $(BUILDDIR)/html/index.html $(BUILDDIR)/html/resume.pdf || true
 	@echo
 	@echo "Build finished. The PDF is in $(BUILDDIR)/html/resume.pdf."
 	which open && open $(BUILDDIR)/html/resume.pdf || rifle $(BUILDDIR)/html/resume.pdf
