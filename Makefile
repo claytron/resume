@@ -6,7 +6,7 @@ SPHINXOPTS    =
 SPHINXBUILD   = sphinx-build
 PAPER         =
 BUILDDIR      = _build
-WKHTMLOPTS    = --page-height 770mm --page-width 208mm
+WKHTMLOPTS    = --page-height 827mm --page-width 208mm
 GITHUBIO      = https://claytron.github.io/resume
 
 # Internal variables.

@@ -20,16 +20,26 @@ Listed here are things that I use on a regular basis.
 :OS:
     macOS, Ubuntu
 :Languages:
-    Ruby, Javascript, Bash, VimL, Python
+    HCL, Ruby, Javascript, Bash, VimL, Python
 :Tools:
-    Vim, zsh, bash, regex, ElasticSearch, git, tmux, sed, grep, awk, terraform, AWS
+    Vim, zsh, bash, Terraform, Docker, AWS, regex, git, tmux, sed, grep, awk, jq
 
 Employment
 ====================================================================
 
-- ( 2021-present ) | Senior Software Engineer | Maxwell
+- ( 2022-present ) | Infrastructure Engineer II | Maxwell
 
-  DevOps work to bring service deployments into the future.
+  Primary focus on infrastructure work, title to align with that.
+
+  Further modernization of infrastructure with focus on developer happiness, security and cost effectiveness.
+
+- ( 2021-2022 ) | Senior Software Engineer | Maxwell
+
+  Ruby on Rails development across multiple products.
+
+  Security updates and hardening.
+
+  Modernize infrastructure around Rails app deployments. Fully automate and allow for any engineer to kick them off.
 
 - ( 2019-2020 ) | Staff Engineer | Conga
 
