@@ -35,6 +35,10 @@ h2, .h2 {
   margin: 9px;
 }
 
+p {
+  margin: 9px;
+}
+
 #employment .btn {
   width: 256px;
 }
@@ -53,13 +57,8 @@ h2, .h2 {
   border-left: 1px solid #abb6c2;
 }
 
-dl,
-.section > p {
+dl {
   margin: 9px;
-}
-
-.well p {
-  margin: 9px 0;
 }
 
 /* You know what, I'll just turn search off... */

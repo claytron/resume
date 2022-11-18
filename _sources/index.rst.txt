@@ -20,30 +20,48 @@ Listed here are things that I use on a regular basis.
 :OS:
     macOS, Ubuntu
 :Languages:
-    Ruby, Javascript, Bash, VimL, Python
+    HCL, Ruby, Javascript, Bash, VimL, Python
 :Tools:
-    Vim, zsh, bash, regex, ElasticSearch, git, tmux, sed, grep, awk, terraform, AWS
+    Vim, zsh, bash, Terraform, Docker, AWS, regex, git, tmux, sed, grep, awk, jq
 
 Employment
 ====================================================================
 
-- ( 2021-present ) | Senior Software Engineer | Maxwell
+- ( 2021-present ) | Various Positions | Maxwell
 
-  DevOps work to bring service deployments into the future.
+  **Infrastructure Engineer II (2022-present)**
 
-- ( 2019-2020 ) | Staff Engineer | Conga
+  Primary focus on infrastructure work, title to align with that.
+
+  Further modernization of infrastructure with focus on developer happiness, security and cost effectiveness.
+
+  **Senior Software Engineer (2021-2022)**
+
+  Ruby on Rails development across multiple products.
+
+  Security updates and hardening.
+
+  Modernize infrastructure around Rails app deployments. Fully automate and allow for any engineer to kick them off.
+
+- ( 2015-2020 ) | Various Positions | TinderBox / Octiv / Conga
+
+  Initially working for TinderBox, then there was branding change to Octiv.
+  Then later there was an acquisition by Conga.
+  Then ultimately an acquisition by Apttus, which led to my exit.
+
+  **Staff Engineer | Conga (2019-2020)**
 
   Working across teams to solve problems.
 
   Added to the Security Advocates Committee to help secure all Conga applications.
 
-- ( 2018-2019 ) | Senior Software Engineer | Conga
+  **Senior Software Engineer | Conga (2018-2019)**
 
   Octiv was acquired by Conga, switched back to primarily doing development.
 
   Mentored junior engineers on both development and DevOps.
 
-- ( 2017-2018 ) | DevOps Lead | TinderBox / Octiv
+  **DevOps Lead | Octiv (2017-2018)**
 
   Started effort to move application from legacy PaaS to native AWS.
 
@@ -51,13 +69,15 @@ Employment
 
   Security remediations.
 
-- ( 2015-2017 ) | Senior Software Engineer | TinderBox / Octiv
+  **Senior Software Engineer | TinderBox / Octiv (2015-2017)**
 
   Writing software in Ruby and Javascript.
 
   DevOps work to get new features ready for release.
 
-- ( 2010-2015 ) | Director of Engineering | Six Feet Up
+- ( 2003-2015 ) | Various Positions | Six Feet Up
+
+  **Director of Engineering (2010-2015)**
 
   Led a team of developers, sysadmins and QA engineers.
 
@@ -66,18 +86,18 @@ Employment
 
   Deployed servers via Salt across Rackspace, Xen VMs and Vagrant.
 
-- ( 2006-2010 ) | Lead Developer | Six Feet Up
+  **Lead Developer (2006-2010)**
 
   Started designing websites from requirement to code.
   Built architecture and workflow diagrams to present to clients.
 
   Deployed applications via Buildout across platforms ranging from Solaris to Windows.
 
-- ( 2004-2006 ) | Junior Developer | Six Feet Up
+  **Junior Developer (2004-2006)**
 
   Learned how to program in Python while building Zope, CMF and Plone sites.
 
-- ( 2003 ) | Junior Sysadmin | Six Feet Up
+  **Junior Sysadmin (2003)**
 
   Help desk for email and website hosting.
 
@@ -114,12 +134,9 @@ Co-founder of `IndyPy <http://indypy.org>`_, the Indianapolis Python user group.
 Projects
 --------------------------------------------------------------------
 
-`claytron.featuring <https://github.com/claytron/claytron.featuring>`_
-    A little Python script that can modify an iTunes database and remove all those *(Featuring Mega Rapper Star)* strings.
-
-`pentadactyl-solarized <https://github.com/claytron/pentadactyl-solarized>`_
-    Solarized color scheme for Pentadactyl, a vim like interface for Firefox.
-    In my opinion, the most complete color scheme that has been created.
+`augury <https://github.com/claytron/augury>`_
+    A Ruby gem that takes a Twitter feed and turns it into a fortune file for use on the command line.
+    This was a silly idea from a hackathon at TinderBox that I used to learn about authoring Ruby gems.
 
 `dotfiles <https://github.com/claytron/dotfiles>`_
     My trusty dotfiles.
@@ -130,6 +147,9 @@ Presentations
 
 Over my career, I have given many presentations to audiences large and small.
 Here are a few highlights:
+
+`Vim for Mere Mortals <https://github.com/claytron/vim-for-mortals-talk>`_
+    Teaching people at the VimIndy meetup how to get started with the venerable Vim text editor.
 
 `Exploring Code with Pry! <https://github.com/claytron/pry-talk>`_
     My first ruby talk!
@@ -146,10 +166,6 @@ Here are a few highlights:
     At PyOhio 2010, I showed the crowd why a coding style guide is important.
     Practical examples were given to illustrate the point.
     The talk also focused on what tools to use to keep your code PEP8 compliant.
-
-`Pioneer a Strategic Change in Content Organization with Plone <https://www.youtube.com/watch?v=fEIZRwCCRaI>`_
-    This talk, given at Plone Conference 2012, focuses on the business use case for multi-sites in Plone.
-    The presentation shows off why and how it was used for The University of Notre Dame.
 
 Publications
 --------------------------------------------------------------------
