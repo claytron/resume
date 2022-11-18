@@ -27,13 +27,15 @@ Listed here are things that I use on a regular basis.
 Employment
 ====================================================================
 
-- ( 2022-present ) | Infrastructure Engineer II | Maxwell
+- ( 2021-present ) | Various Positions | Maxwell
+
+  **Infrastructure Engineer II (2022-present)**
 
   Primary focus on infrastructure work, title to align with that.
 
   Further modernization of infrastructure with focus on developer happiness, security and cost effectiveness.
 
-- ( 2021-2022 ) | Senior Software Engineer | Maxwell
+  **Senior Software Engineer (2021-2022)**
 
   Ruby on Rails development across multiple products.
 
@@ -41,19 +43,25 @@ Employment
 
   Modernize infrastructure around Rails app deployments. Fully automate and allow for any engineer to kick them off.
 
-- ( 2019-2020 ) | Staff Engineer | Conga
+- ( 2015-2020 ) | Various Positions | TinderBox / Octiv / Conga
+
+  Initially working for TinderBox, then there was branding change to Octiv.
+  Then later there was an acquisition by Conga.
+  Then ultimately an acquisition by Apttus, which led to my exit.
+
+  **Staff Engineer | Conga (2019-2020)**
 
   Working across teams to solve problems.
 
   Added to the Security Advocates Committee to help secure all Conga applications.
 
-- ( 2018-2019 ) | Senior Software Engineer | Conga
+  **Senior Software Engineer | Conga (2018-2019)**
 
   Octiv was acquired by Conga, switched back to primarily doing development.
 
   Mentored junior engineers on both development and DevOps.
 
-- ( 2017-2018 ) | DevOps Lead | TinderBox / Octiv
+  **DevOps Lead | Octiv (2017-2018)**
 
   Started effort to move application from legacy PaaS to native AWS.
 
@@ -61,13 +69,15 @@ Employment
 
   Security remediations.
 
-- ( 2015-2017 ) | Senior Software Engineer | TinderBox / Octiv
+  **Senior Software Engineer | TinderBox / Octiv (2015-2017)**
 
   Writing software in Ruby and Javascript.
 
   DevOps work to get new features ready for release.
 
-- ( 2010-2015 ) | Director of Engineering | Six Feet Up
+- ( 2003-2015 ) | Various Positions | Six Feet Up
+
+  **Director of Engineering (2010-2015)**
 
   Led a team of developers, sysadmins and QA engineers.
 
@@ -76,18 +86,18 @@ Employment
 
   Deployed servers via Salt across Rackspace, Xen VMs and Vagrant.
 
-- ( 2006-2010 ) | Lead Developer | Six Feet Up
+  **Lead Developer (2006-2010)**
 
   Started designing websites from requirement to code.
   Built architecture and workflow diagrams to present to clients.
 
   Deployed applications via Buildout across platforms ranging from Solaris to Windows.
 
-- ( 2004-2006 ) | Junior Developer | Six Feet Up
+  **Junior Developer (2004-2006)**
 
   Learned how to program in Python while building Zope, CMF and Plone sites.
 
-- ( 2003 ) | Junior Sysadmin | Six Feet Up
+  **Junior Sysadmin (2003)**
 
   Help desk for email and website hosting.
 
