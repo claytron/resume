@@ -124,12 +124,9 @@ Co-founder of `IndyPy <http://indypy.org>`_, the Indianapolis Python user group.
 Projects
 --------------------------------------------------------------------
 
-`claytron.featuring <https://github.com/claytron/claytron.featuring>`_
-    A little Python script that can modify an iTunes database and remove all those *(Featuring Mega Rapper Star)* strings.
-
-`pentadactyl-solarized <https://github.com/claytron/pentadactyl-solarized>`_
-    Solarized color scheme for Pentadactyl, a vim like interface for Firefox.
-    In my opinion, the most complete color scheme that has been created.
+`augury <https://github.com/claytron/augury>`_
+    A Ruby gem that takes a Twitter feed and turns it into a fortune file for use on the command line.
+    This was a silly idea from a hackathon at TinderBox that I used to learn about authoring Ruby gems.
 
 `dotfiles <https://github.com/claytron/dotfiles>`_
     My trusty dotfiles.
@@ -140,6 +137,9 @@ Presentations
 
 Over my career, I have given many presentations to audiences large and small.
 Here are a few highlights:
+
+`Vim for Mere Mortals <https://github.com/claytron/vim-for-mortals-talk>`_
+    Teaching people at the VimIndy meetup how to get started with the venerable Vim text editor.
 
 `Exploring Code with Pry! <https://github.com/claytron/pry-talk>`_
     My first ruby talk!
@@ -156,10 +156,6 @@ Here are a few highlights:
     At PyOhio 2010, I showed the crowd why a coding style guide is important.
     Practical examples were given to illustrate the point.
     The talk also focused on what tools to use to keep your code PEP8 compliant.
-
-`Pioneer a Strategic Change in Content Organization with Plone <https://www.youtube.com/watch?v=fEIZRwCCRaI>`_
-    This talk, given at Plone Conference 2012, focuses on the business use case for multi-sites in Plone.
-    The presentation shows off why and how it was used for The University of Notre Dame.
 
 Publications
 --------------------------------------------------------------------
