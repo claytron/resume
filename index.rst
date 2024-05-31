@@ -8,7 +8,7 @@
 Clayton Parker
 ====================================================================
 
-aka `claytron <http://claytron.com>`_ on the internets.
+aka `claytron <https://github.com/claytron>`_ on the internets.
 I've been honing my skills as a developer for almost two decades.
 My experience has granted me a deep appreciation for simplicity, plain text and the command line.
 
