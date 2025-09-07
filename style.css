@@ -1,0 +1,545 @@
+/* Catppuccin Latte Resume Theme */
+
+:root {
+  /* Catppuccin Latte Colors */
+  --base: #EFF1F5;
+  --mantle: #E6E9EF;
+  --crust: #DCE0E8;
+  --text: #4C4F69;
+  --subtext0: #5C5F77;
+  --subtext1: #6C6F85;
+  --overlay0: #9CA0B0;
+  --overlay1: #8C8F9E;
+  --overlay2: #7C7F8E;
+  --surface0: #CCD0DA;
+  --surface1: #BCC0CC;
+  --surface2: #ACB0BE;
+
+  /* Accent Colors */
+  --rosewater: #DC8A78;
+  --flamingo: #DD7878;
+  --pink: #EA76CB;
+  --mauve: #8839EF;
+  --red: #D20F39;
+  --maroon: #E64553;
+  --peach: #FE640B;
+  --yellow: #DF8E1D;
+  --green: #40A02B;
+  --teal: #179299;
+  --sky: #04A5E5;
+  --sapphire: #209FB5;
+  --blue: #1E66F5;
+  --lavender: #7287FD;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Helvetica Neue', Arial, sans-serif;
+  line-height: 1.6;
+  color: var(--text);
+  background-color: var(--base);
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 2rem;
+  font-size: 16px;
+}
+
+/* Screen-only styles for better HTML viewing */
+@media screen {
+  body {
+    padding: 2rem 4rem;
+    margin: 2rem auto;
+  }
+}
+
+/* Headers */
+h1 {
+  color: var(--mauve);
+  font-size: 2.5em;
+  margin-bottom: 0.5em;
+  border-bottom: 3px solid var(--lavender);
+  padding-bottom: 0.2em;
+}
+
+h2 {
+  color: var(--blue);
+  font-size: 1.8em;
+  margin-top: 2em;
+  margin-bottom: 1em;
+  border-bottom: 2px solid var(--surface0);
+  padding-bottom: 0.2em;
+}
+
+h3 {
+  color: var(--sapphire);
+  font-size: 1.6em;
+  margin-top: 2em;
+  margin-bottom: 0.8em;
+  font-weight: 700;
+  background-color: var(--mantle);
+  padding: 0.6em 1em;
+  border-radius: 8px;
+  border-right: 5px solid var(--peach);
+}
+
+
+/* Links */
+a {
+  color: var(--blue);
+  text-decoration: none;
+}
+
+a:hover {
+  color: var(--sapphire);
+  text-decoration: underline;
+}
+
+/* Emphasis */
+strong {
+  color: var(--text);
+  font-weight: 600;
+}
+
+em {
+  color: var(--subtext0);
+  font-style: italic;
+}
+
+/* Blockquotes */
+blockquote {
+  background-color: var(--mantle);
+  border-left: 4px solid var(--lavender);
+  margin: 1em 0;
+  padding: 1em 1.5em;
+  border-radius: 0 8px 8px 0;
+}
+
+blockquote p {
+  margin: 0;
+}
+
+/* Tables */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 1em 0;
+  background-color: var(--mantle);
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+th, td {
+  padding: 0.75em 1em;
+  text-align: left;
+  border-bottom: 1px solid var(--surface0);
+}
+
+th {
+  background-color: var(--surface0);
+  color: var(--text);
+  font-weight: 600;
+}
+
+tr:last-child td {
+  border-bottom: none;
+}
+
+/* Employment sections */
+#employment h3 + p {
+  background-color: var(--surface0);
+  padding: 0.5em 1em;
+  border-radius: 6px;
+  margin-bottom: 1em;
+  font-weight: 500;
+}
+
+/* Date ranges and company info styling */
+#employment h3 + p strong:first-child {
+  color: var(--peach);
+}
+
+#employment h3 + p strong:last-child {
+  color: var(--green);
+}
+
+/* Exclude Community section from employment styling */
+#community h3 + p {
+  background-color: transparent;
+  padding: 0;
+  border-radius: 0;
+  margin-bottom: 1em;
+  font-weight: normal;
+}
+
+/* Position titles */
+h4 {
+  color: var(--teal);
+  font-size: 1.1em;
+  margin-top: 1em;
+  margin-bottom: 0.3em;
+  font-weight: 600;
+  border-left: 3px solid var(--teal);
+  padding-left: 0.8em;
+}
+
+/* Employment section - inline date formatting */
+/* Target only h4s that come after employment company h3s */
+h3#maxwell ~ h4,
+h3#tinderbox-octiv-conga ~ h4,
+h3#six-feet-up ~ h4 {
+  display: inline-block;
+  width: 60%;
+}
+
+h3#maxwell ~ h4 + p strong,
+h3#tinderbox-octiv-conga ~ h4 + p strong,
+h3#six-feet-up ~ h4 + p strong {
+  float: right;
+  margin: 0;
+  font-size: 0.9em;
+  color: var(--peach);
+  font-weight: 600;
+  background-color: var(--mantle);
+  padding: 0.2em 0.6em;
+  border-radius: 4px;
+  position: relative;
+  top: -2em;
+}
+
+h3#maxwell ~ h4 + p,
+h3#tinderbox-octiv-conga ~ h4 + p,
+h3#six-feet-up ~ h4 + p {
+  margin: 0;
+  height: 0;
+  overflow: visible;
+}
+
+/* Reset Community section to normal styling */
+h3#user-groups ~ h4,
+h3#projects ~ h4,
+h3#presentations ~ h4 {
+  display: block;
+  width: auto;
+}
+
+h3#user-groups ~ h4 + p,
+h3#projects ~ h4 + p,
+h3#presentations ~ h4 + p {
+  margin: 1em 0;
+  height: auto;
+  overflow: visible;
+}
+
+h3#user-groups ~ h4 + p strong,
+h3#projects ~ h4 + p strong,
+h3#presentations ~ h4 + p strong {
+  float: none;
+  position: static;
+  font-size: inherit;
+  color: inherit;
+  font-weight: inherit;
+  background-color: transparent;
+  padding: 0;
+  border-radius: 0;
+}
+
+/* Horizontal rules */
+hr {
+  border: none;
+  height: 2px;
+  background: linear-gradient(to right, var(--lavender), var(--mauve), var(--pink));
+  margin: 2em 0;
+  border-radius: 1px;
+}
+
+/* Community section styling */
+.community-role {
+  color: var(--maroon);
+  font-weight: 600;
+}
+
+.community-description {
+  color: var(--subtext0);
+  font-style: italic;
+  margin-bottom: 1em;
+}
+
+/* User Groups styling */
+#user-groups + p strong,
+#user-groups + p + p strong,
+#user-groups + p + p + p strong {
+  color: var(--maroon);
+  font-weight: 600;
+}
+
+/* Project descriptions */
+#projects + h4 + p {
+  color: var(--subtext0);
+  margin-bottom: 1em;
+}
+
+/* Personal section styling */
+h2:last-of-type + p strong {
+  color: var(--maroon);
+  display: block;
+  margin-top: 1em;
+  margin-bottom: 0.2em;
+}
+
+/* PDF and Print styles - use hex values for weasyprint compatibility */
+@media print {
+  @page {
+    size: A4;
+    margin: 0.6in;
+    background: #EFF1F5;
+  }
+
+  html {
+    background: #EFF1F5;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+  }
+
+  body {
+    font-size: 11pt;
+    line-height: 1.3;
+    margin: 0;
+    padding: 0;
+    background: #EFF1F5;
+    color: #4C4F69;
+    box-sizing: border-box;
+  }
+
+  /* Page break controls */
+  h1 {
+    color: #8839EF;
+    font-size: 18pt;
+    page-break-after: avoid;
+    page-break-inside: avoid;
+    border-bottom: 2pt solid #7287FD;
+    margin-top: 0;
+    margin-bottom: 0.5em;
+  }
+
+  h2 {
+    color: #1E66F5;
+    font-size: 14pt;
+    page-break-after: avoid;
+    page-break-before: auto;
+    page-break-inside: avoid;
+    margin-top: 1em;
+    margin-bottom: 0.6em;
+    border-bottom: 1pt solid #CCD0DA;
+  }
+
+  h3 {
+    color: #209FB5;
+    font-size: 14pt;
+    page-break-after: avoid;
+    page-break-inside: avoid;
+    page-break-before: avoid;
+    margin-top: 1em;
+    margin-bottom: 0.5em;
+    font-weight: 700;
+    background-color: #E6E9EF;
+    padding: 4pt 6pt;
+    border-radius: 4pt;
+    border-right: 3pt solid #FE640B;
+  }
+
+  h4 {
+    color: #179299;
+    font-size: 11pt;
+    page-break-after: avoid;
+    page-break-inside: avoid;
+    margin-top: 0.5em;
+    margin-bottom: 2pt;
+    font-weight: 600;
+    border-left: 2pt solid #179299;
+    padding-left: 4pt;
+  }
+
+  /* Employment section - inline date formatting for print */
+  /* Target only h4s that come after employment company h3s */
+  h3#maxwell ~ h4,
+  h3#tinderbox-octiv-conga ~ h4,
+  h3#six-feet-up ~ h4 {
+    display: inline-block;
+    width: 60%;
+  }
+
+  h3#maxwell ~ h4 + p strong,
+  h3#tinderbox-octiv-conga ~ h4 + p strong,
+  h3#six-feet-up ~ h4 + p strong {
+    float: right;
+    margin: 0;
+    font-size: 10pt;
+    color: #FE640B;
+    font-weight: 600;
+    background-color: #E6E9EF;
+    padding: 1pt 4pt;
+    border-radius: 3pt;
+    position: relative;
+    top: -2em;
+  }
+
+  h3#maxwell ~ h4 + p,
+  h3#tinderbox-octiv-conga ~ h4 + p,
+  h3#six-feet-up ~ h4 + p {
+    margin: 0;
+    height: 0;
+    overflow: visible;
+  }
+
+  /* Reset Community section to normal styling for print */
+  h3#user-groups ~ h4,
+  h3#projects ~ h4,
+  h3#presentations ~ h4 {
+    display: block;
+    width: auto;
+  }
+
+  h3#user-groups ~ h4 + p,
+  h3#projects ~ h4 + p,
+  h3#presentations ~ h4 + p {
+    margin: 8pt 0;
+    height: auto;
+    overflow: visible;
+  }
+
+  h3#user-groups ~ h4 + p strong,
+  h3#projects ~ h4 + p strong,
+  h3#presentations ~ h4 + p strong {
+    float: none;
+    position: static;
+    font-size: inherit;
+    color: inherit;
+    font-weight: inherit;
+    background-color: transparent;
+    padding: 0;
+    border-radius: 0;
+  }
+
+  /* Keep job sections together */
+  h3 + p {
+    page-break-inside: avoid;
+    page-break-after: avoid;
+  }
+
+  h4 + p {
+    page-break-before: avoid;
+    page-break-inside: avoid;
+  }
+
+  /* Keep employment entries together */
+  h3 + p + h4 {
+    page-break-before: avoid;
+  }
+
+  /* Keep related content together */
+  blockquote {
+    page-break-inside: avoid;
+  }
+
+  table {
+    page-break-inside: avoid;
+  }
+
+  /* Horizontal rules should have space around page breaks */
+  hr {
+    page-break-before: auto;
+    page-break-after: auto;
+    margin: 1.5em 0;
+  }
+
+  a {
+    color: #1E66F5;
+    text-decoration: none;
+  }
+
+  /* Don't show URLs in PDF - links are styled and readable */
+
+  blockquote {
+    background-color: #E6E9EF;
+    border-left: 3pt solid #7287FD;
+    padding: 4pt 8pt;
+    margin: 4pt 0;
+    border-radius: 0 4pt 4pt 0;
+  }
+
+  table {
+    background-color: #E6E9EF;
+    border-radius: 6pt;
+    overflow: hidden;
+  }
+
+  th {
+    background-color: #CCD0DA;
+    color: #4C4F69;
+  }
+
+  td {
+    border-bottom: 1pt solid #CCD0DA;
+  }
+
+  /* Employment section styling for print */
+  #employment h3 + p {
+    background-color: #CCD0DA;
+    padding: 2pt 4pt;
+    border-radius: 2pt;
+  }
+
+  #employment h3 + p strong:first-child {
+    color: #FE640B;
+  }
+
+  #employment h3 + p strong:last-child {
+    color: #40A02B;
+  }
+
+  /* Exclude Community section from employment styling for print */
+  #community h3 + p {
+    background-color: transparent;
+    padding: 0;
+    border-radius: 0;
+  }
+
+  hr {
+    border: none;
+    height: 1pt;
+    background: #7287FD;
+    margin: 0.5em 0;
+  }
+
+  strong {
+    color: #4C4F69;
+  }
+
+  em {
+    color: #5C5F77;
+  }
+
+  /* Community section styling for print */
+  .community-role {
+    color: #E64553;
+    font-weight: 600;
+  }
+
+  .community-description {
+    color: #5C5F77;
+    font-style: italic;
+  }
+
+  /* User Groups styling for print */
+  #user-groups + p strong,
+  #user-groups + p + p strong,
+  #user-groups + p + p + p strong {
+    color: #E64553;
+    font-weight: 600;
+  }
+
+  /* Project descriptions for print */
+  #projects + h4 + p {
+    color: #5C5F77;
+  }
+}
