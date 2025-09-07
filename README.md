@@ -24,6 +24,11 @@ Now create a PDF:
 
 ```bash
 make pdf
+
+## With contact info
+vim contact-info.md
+## Add info to be included
+make pdf
 ```
 
 Or build HTML:

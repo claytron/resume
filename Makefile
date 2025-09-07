@@ -20,17 +20,20 @@ help:
 	@echo "  publish    to publish to GitHub Pages"
 
 clean:
-	rm -rf $(BUILDDIR)/*
+	rm -rf $(BUILDDIR)
+	rm -rf .venv
 
 $(BUILDDIR):
+	uv sync
 	mkdir -p $(BUILDDIR)
 
 html: $(BUILDDIR)
-	$(PANDOC) $(RESUME_MD) \
+	. .venv/bin/activate && $(PANDOC) $(RESUME_MD) \
 		--template=$(TEMPLATE_HTML) \
 		--css=$(CSS_FILE) \
 		--variable=favicon:favicon.svg \
 		--variable=pagetitle:"Clayton Parker | Cloud Archaeologist" \
+		--filter=.venv/bin/pandoc-include \
 		--standalone \
 		--output=$(BUILDDIR)/index.html
 	cp $(CSS_FILE) $(BUILDDIR)/
@@ -39,10 +42,11 @@ html: $(BUILDDIR)
 	@echo "Build finished. The HTML page is in $(BUILDDIR)/index.html."
 
 pdf: $(BUILDDIR)
-	$(PANDOC) $(RESUME_MD) \
+	. .venv/bin/activate && $(PANDOC) $(RESUME_MD) \
 		--template=$(TEMPLATE_HTML) \
 		--css=$(CSS_FILE) \
 		--variable=pagetitle:"Clayton Parker's Resume" \
+		--filter=.venv/bin/pandoc-include \
 		--pdf-engine=weasyprint \
 		--output=$(BUILDDIR)/Clayton\ Parker\'s\ Resume.pdf
 	@echo

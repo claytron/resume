@@ -2,6 +2,8 @@
 
 [linkedin.com/in/claytron](https://www.linkedin.com/in/claytron/) • [github.com/claytron](https://github.com/claytron)
 
+!include contact-info.md
+
 > Infrastructure Engineer with 20+ years of experience modernizing systems and leading technical teams. Proven track record of reducing infrastructure costs, hardening systems, and automating deployment processes. Expert in Ruby, AWS, CI/CD, and DevOps practices. Passionate about simplicity and developer experience optimization.
 
 ## Skills
