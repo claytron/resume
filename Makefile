@@ -33,6 +33,7 @@ html: $(BUILDDIR)
 		--css=$(CSS_FILE) \
 		--variable=favicon:favicon.svg \
 		--variable=pagetitle:"Clayton Parker | Cloud Archaeologist" \
+		--variable=html:true \
 		--filter=.venv/bin/pandoc-include \
 		--standalone \
 		--output=$(BUILDDIR)/index.html
