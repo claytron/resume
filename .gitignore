@@ -1,5 +1,4 @@
 _build
-/sphinx-bootstrap-theme/
-/env/
+/.venv/
 resume.pdf
 contact-info.md

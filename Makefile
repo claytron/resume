@@ -60,13 +60,16 @@ all: html pdf
 dirty:
 	[ -n "$(shell git status -s)" ] && echo 'There are unsaved changes. Please commit.' && exit 1 || true
 
+clean_perso:
+	truncate -s 0 contact-info.md
+
 # Publish to GitHub Pages
-publish: dirty html
+publish: clean_perso dirty html
 	cp -r $(BUILDDIR) /tmp/rhtml
 	touch /tmp/rhtml/.nojekyll
 	cp .gitignore /tmp/rhtml/.
 	git checkout gh-pages
-	rsync -av --exclude=.git/ --exclude=env/ --delete /tmp/rhtml/ .
+	rsync -av --exclude=.git/ --exclude=.venv/ --delete /tmp/rhtml/ .
 	git add .
 	git commit -m 'new build'
 	git push origin gh-pages
