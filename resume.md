@@ -26,7 +26,7 @@
 
 #### Infrastructure Engineer II
 
-**01/2021 - present**
+**01/2021 - 11/2025**
 
 - Reduced infrastructure costs by 60% through resource optimization and consolidation initiatives
 - Accelerated deployment time from hours to minutes by automating deployment processes and enabling self-service deployments for engineering teams
