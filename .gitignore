@@ -2,3 +2,5 @@ _build
 /.venv/
 resume.pdf
 contact-info.md
+/tmp/
+CLAUDE.md

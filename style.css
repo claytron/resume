@@ -104,6 +104,34 @@ em {
   font-style: italic;
 }
 
+/* Lists */
+ul {
+  margin: 1.2em 0;
+  padding-left: 1.5em;
+}
+
+ol {
+  margin: 1.2em 0;
+  padding-left: 1.5em;
+}
+
+li {
+  margin-bottom: 0.5em;
+  color: var(--text);
+}
+
+/* Nested lists */
+li > ul,
+li > ol {
+  margin: 0.5em 0;
+}
+
+/* List items with strong bullets */
+ul li::marker {
+  color: var(--blue);
+  font-weight: bold;
+}
+
 /* Blockquotes */
 blockquote {
   background-color: var(--mantle);
@@ -517,6 +545,34 @@ h2:last-of-type + p strong {
 
   em {
     color: #5C5F77;
+  }
+
+  /* Lists for print */
+  ul {
+    margin: 8pt 0;
+    padding-left: 12pt;
+  }
+
+  ol {
+    margin: 8pt 0;
+    padding-left: 12pt;
+  }
+
+  li {
+    margin-bottom: 4pt;
+    color: #4C4F69;
+  }
+
+  /* Nested lists for print */
+  li > ul,
+  li > ol {
+    margin: 4pt 0;
+  }
+
+  /* List items with strong bullets for print */
+  ul li::marker {
+    color: #1E66F5;
+    font-weight: bold;
   }
 
   /* Community section styling for print */
