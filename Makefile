@@ -64,10 +64,10 @@ cover-letter: $(BUILDDIR)
 		--variable=pagetitle:"Clayton Parker's Cover Letter" \
 		--filter=.venv/bin/pandoc-include \
 		--pdf-engine=weasyprint \
-		--output=$(BUILDDIR)/Clayton\ Parker\'s\ Cover\ Letter.pdf
+		--output=tmp/Clayton\ Parker\'s\ Cover\ Letter.pdf
 	@echo
 	@echo "Build finished. The cover letter PDF is in $(BUILDDIR)/Clayton Parker's Cover Letter.pdf."
-	which open && open $(BUILDDIR)/Clayton\ Parker\'s\ Cover\ Letter.pdf || rifle $(BUILDDIR)/Clayton\ Parker\'s\ Cover\ Letter.pdf
+	which open && open tmp/Clayton\ Parker\'s\ Cover\ Letter.pdf || rifle tmp/Clayton\ Parker\'s\ Cover\ Letter.pdf
 
 all: html pdf
 
@@ -84,7 +84,7 @@ publish: clean_perso dirty html
 	touch /tmp/rhtml/.nojekyll
 	cp .gitignore /tmp/rhtml/.
 	git checkout gh-pages
-	rsync -av --exclude=.git/ --exclude=.venv/ --delete /tmp/rhtml/ .
+	rsync -av --exclude=.git/ --exclude=tmp/ --exclude=CLAUDE.md --exclude=.venv/ --delete /tmp/rhtml/ .
 	git add .
 	git commit -m 'new build'
 	git push origin gh-pages
