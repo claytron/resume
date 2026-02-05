@@ -79,7 +79,7 @@ clean_perso:
 	truncate -s 0 contact-info.md
 
 # Publish to GitHub Pages
-publish: clean_perso dirty html
+publish: clean_perso dirty all
 	cp -r $(BUILDDIR) /tmp/rhtml
 	touch /tmp/rhtml/.nojekyll
 	cp .gitignore /tmp/rhtml/.
