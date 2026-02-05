@@ -84,6 +84,7 @@ publish: clean_perso dirty all
 	touch /tmp/rhtml/.nojekyll
 	cp .gitignore /tmp/rhtml/.
 	git checkout gh-pages
+	touch *
 	rsync -av --exclude=.git/ --exclude=tmp/ --exclude=CLAUDE.md --exclude=.venv/ --delete /tmp/rhtml/ .
 	git add .
 	git commit -m 'new build'
